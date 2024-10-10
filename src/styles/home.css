@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/src/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", verdana;
+}
+
+body {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.searchBar {
+  margin: 10px auto;
+  padding: 5px 10px;
+  width: 250px;
+}
+
+.mealContainer {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+li {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+h2 {
+  min-height: 60px;
+}
+
+.origin {
+  margin: 5px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.instructions {
+  display: -webkit-box; /* Active l'affichage sous forme de boîte flexible */
+  -webkit-line-clamp: 20; /* Nombre maximal de lignes avant le tronquage */
+  -webkit-box-orient: vertical; /* Définit l'orientation du texte */
+  overflow: hidden; /* Cache le texte qui dépasse */
+  text-overflow: ellipsis; /* Ajoute des points de suspension à la fin */
+  height: auto; /* Ajuste la hauteur automatiquement */
+  margin-bottom: 10px;
+}
