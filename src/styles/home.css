@@ -25,7 +25,7 @@ h1 {
 .searchBar {
   margin: 10px auto;
   padding: 5px 10px;
-  width: 250px;
+  width: 290px;
 }
 
 .mealContainer {
@@ -66,6 +66,5 @@ img {
   -webkit-box-orient: vertical; /* Définit l'orientation du texte */
   overflow: hidden; /* Cache le texte qui dépasse */
   text-overflow: ellipsis; /* Ajoute des points de suspension à la fin */
-  height: auto; /* Ajuste la hauteur automatiquement */
   margin-bottom: 10px;
 }
